@@ -1,0 +1,75 @@
+.le {
+	background-color: cadetblue;
+}
+
+.tao {
+	background-color: chocolate;
+	border-style: dotted;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#man {
+	color: darkolivegreen;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+	background-color: palevioletred;
+	background-image: url("19days.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#b1 {
+	width: 200px;
+	height: 20px;
+	border-style: solid;
+	background-color: palevioletred;
+	position: fixed;
+	top: 50px;
+}
+
+#b2 {
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	margin: 10px;
+	background-color: palevioletred;
+	position: relative;
+	top: 10px;
+	transform: rotateY(180deg);
+	transform: skewY(10deg);
+}
+
+h2 {
+	color: palevioletred;
+	text-shadow: 5px 5px 6px gray;
+}
+
+button {
+	background-color: violet;
+}
+
+button:hover {
+	background-color: lightpink;
+}
+
+button:active {
+	background-color: darkcyan;
+}
+
+li:nth-child(3) {
+	color: palevioletred;
+}
+
+@media all and (max-width);
+	background-color: palevioletred;
+	min-height: 50px;
+	margin-bottom: 20px;
+}
